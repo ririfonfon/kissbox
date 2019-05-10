@@ -15,8 +15,8 @@ bool isConnected = false;
 
 APPLEMIDI_CREATE_DEFAULT_INSTANCE(); // see definition in AppleMidi_Defs.h
 
-IPAddress remote(192, 168, 0, 119); // replace with remote ip
-
+IPAddress remote(192, 168, 0, 11); // replace with remote ip
+#define APPLEMIDI_DEBUG_VERBOSE 1
 // -----------------------------------------------------------------------------
 //
 // -----------------------------------------------------------------------------
